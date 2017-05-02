@@ -1,0 +1,65 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+div{
+  height:100vh;
+}
+.menu{
+  height: 10vh;
+}
+.menu div{
+  height:10vh;
+}
+[class*='span-']{
+  float:left;
+  padding-right:20px;
+}
+.container:after{
+  content:"";
+  display:table;
+  clear: both;
+}
+.span-2{
+  width:16.66%;
+  background-color:rgba(80,80,80,.4);
+}
+.menu .span-2{
+  background-color:rgba(80,80,80,.3);
+}
+.span-3{
+  width:25%;
+}
+.menu .span-3{
+  background-color: rgba(80,80,80,.35)
+}
+.span-4{
+  width:33.33%;
+  background-color:rgba(80,80,80,.2);
+}
+.span-6{
+  width:50%;
+  background-color:rgba(80,80,80,.8);
+}
+.span-7{
+  width:58.33%;
+}
+.menu .span-7{
+  background-color: rgba(80,80,80,.1)
+}
+.title{
+  margin:10% 0 0 2.8%;
+  height:10%;
+  background-color: rgba(0,0,0,.8)
+}
+.author{
+  margin:5% 0 0 2.8%;
+  height:5%;
+  background-color: rgba(0,0,0,.1)
+}
+.content{
+  margin:5% 0 0 2.8%;
+  height:65%;
+  background-color: rgba(0,0,0,.7);
+}
