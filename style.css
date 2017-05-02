@@ -6,6 +6,9 @@
 div{
   height:100vh;
 }
+h1, h2, h3, h4, h4, h6{
+  margin: 0;
+}
 .menu{
   height: 10vh;
 }
@@ -40,7 +43,6 @@ div{
 }
 .span-6{
   width:50%;
-  background-color:rgba(80,80,80,.8);
 }
 .span-7{
   width:58.33%;
@@ -51,15 +53,22 @@ div{
 .title{
   margin:10% 0 0 2.8%;
   height:10%;
-  background-color: rgba(0,0,0,.8)
+  font-size:1.25em;
+  font-weight: bold;
+  font-family:Serif;
 }
 .author{
-  margin:5% 0 0 2.8%;
+  margin-left:2.8%;
   height:5%;
-  background-color: rgba(0,0,0,.1)
+  font-family: 'Slabo 27px', serif;
 }
 .content{
   margin:5% 0 0 2.8%;
   height:65%;
-  background-color: rgba(0,0,0,.7);
+  font-size: 1.2em;
+  font-family: 'Slabo 27px', serif;
+}
+.image{
+  background-color: rgba(0,0,0,.4);
+  height:60%;
 }
